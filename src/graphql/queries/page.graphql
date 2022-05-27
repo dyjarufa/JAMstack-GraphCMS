@@ -1,3 +1,4 @@
+# query para buscar uma página específica de dentro do graphcms
 query Page($slug: String!) {
   page (
     where: {
